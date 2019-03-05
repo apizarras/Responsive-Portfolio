@@ -2,48 +2,70 @@
 <html lang="en-us">
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Angela Pizarras Portfolio</title>
         <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
         <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/style.css">
     </head>
 <body>
 
-                <header class="displayflex, container">
-                    <section class="box">
-                    <h1 class="name">Angela Pizarras</h1>
-                     <div class="topnav">
-                        <a class="spacing" href="index.html">About</a>
-                        <a class="spacing" href="portfolio.html">Portfolio</a>
-                        <a href="contact.html">Contact</a>
-                    </div> 
-                </section>
-                 </header>
-
-                 <br>
-                 <br>
-                 <br>
-                 <br>
-
-                 <div class="form">
+    <div class="row">
+        <ul class="topnav">
+           <li class="column column1 name">Angela Pizarras</li>
+       <div class="column center-in-column">
+           <li><a class="pad-left pad-right margin-border-right" href="index.html">About</a></li>
+           <li><a class="pad-left pad-right margin-border-right" href="portfolio.html">Portfolio</a></li>
+           <li><a class="pad-left" href="contact.html">Contact</a></li>
+       </div>
+       </ul>
+   </div>
+            
+            <div class="form">
                         <h1 class="fontteal">Portfolio</h1>
-                            <br>
+
                         <hr class="grey">
                             <br>
-                
-                    <div class="column"> 
-                     <img class="row" src="assets/images/abstract.jpg" alt="Abstract Image">
-                        <img class="row" src="assets/images/fall-trees.jpg" alt="Trees">
+                <div class="grid">
+                 <div class="row"> 
+                    <div class="container">
+                        <img src="assets/images/abstract.jpg" alt="Abstract Image">
+                            <div class="text-box">
+                                <h4>Example #1</h4>
+                            </div>
                     </div>
-                     <div class="column">
-                        <img class="row" src="assets/images/flowers.jpg" alt="Flowers">    
-                        <img class="row" src="assets/images/giraffe.jpg" alt="Giraffe">
-                    </div>
-                    <div class="column">
-                        <img class="row" src="assets/images/specs.jpg" alt="Specs">
+                        <div class="container">
+                        <img src="assets/images/fall-trees.jpg" alt="Trees">
+                            <div class="text-box">
+                                <h4>Example #2</h4>
+                            </div>
+                        </div>
+                 </div>
+                <div class="row">
+                    <div class="container">
+                        <img src="assets/images/flowers.jpg" alt="Flowers">
+                            <div class="text-box">
+                                <h4>Example #3</h4>
+                            </div>  
+                    </div> 
+                    <div class="container"> 
+                        <img src="assets/images/giraffe.jpg" alt="Giraffe">
+                            <div class="text-box">
+                                <h4>Example #4</h4>
+                            </div>
                     </div>
                 </div>
 
-                <footer>
+                <div class="row">
+                    <div class="container">
+                        <img src="assets/images/specs.jpg" alt="Specs">
+                            <div class="text-box">
+                                <h4>Example #5</h4>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+                <footer class="footer">
                     <p>Copyright©</p>
                     <a href="https://github.com/apizarras/">
                         <img src="assets/images/GitHub-Mark.png" alt="Github Link" class="footerimg">
