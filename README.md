@@ -1,5 +1,8 @@
 # Responsive-Portfolio
 Unit 2 Homework Responsive Portfolio
 
-- not sure why my footer sits so low, because body measurement doesn't show same height as where the footer is sitting
-- navbar is centered, but doesn't look centered
+Contains Bio page, Portfolio page, and Contact page
+
+- need to work on how the images display on the Portfolio page
+- created new css classes within media queries
+
