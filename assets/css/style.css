@@ -242,16 +242,28 @@ footer {
         margin: 2rem;
         width: 85%;
     }
-    .name {
-        padding: 0;
-        text-align: center;
+    .column{
+        height: 60px;
     }
     .column1 {
-        width: 100%;
+        width: 30%;
+        margin-left: 2rem;
+    }
+    .name {
+        padding: 1rem;
+        text-align: center;
+        height: 30px;
     }
     .row {
         padding: 0;
+        background-color: white;
     }
+    li {
+        padding-top: 1.5rem;
+    }
+   .center-in-column {
+       justify-content: flex-end;
+   } 
   }
  
     @media screen and (min-width: 769px)    {
@@ -259,16 +271,28 @@ footer {
             margin: 2rem;
             width: 85%;
         }
-        .name {
-            padding: 0;
-            text-align: center;
+        .column{
+            height: 60px;
         }
         .column1 {
-            width: 100%;
+            width: 30%;
+            margin-left: 2rem;
+        }
+        .name {
+            padding: 1rem;
+            text-align: center;
+            height: 30px;
         }
         .row {
             padding: 0;
+            background-color: white;
         }
+        li {
+            padding-top: 1.5rem;
+        }
+       .center-in-column {
+           justify-content: flex-end;
+       } 
     }
     
    
