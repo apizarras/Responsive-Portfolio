@@ -191,10 +191,10 @@ footer {
     color: white;
     text-align: center;
     bottom: 0;
-    width: 100%;
+    width: 100vw;
     height: 80px;
     border-top: 5px solid #4aaaa5;
-    flex-shrink: 0;
+    /* flex-shrink: 0; */
 }
 
 .footer {
@@ -227,8 +227,8 @@ footer {
 }
 @media only screen and (max-width: 640px) {
     .form {
-        margin: 2rem;
-        width: 15rem;
+        margin: 0;
+        width: 100vw;
     }
     .name {
         padding: 0;
@@ -246,7 +246,14 @@ footer {
     }
     img {
         margin-bottom: 5px;
+        width: 100%;
 }
+    .container {
+        width: 100vw;
+    }
+    .footer {
+        width: 95vw;
+    }
      }
 @media only screen and (min-width: 641px) and (max-width: 768px) {
     .form {
