@@ -118,7 +118,7 @@ a, p, img {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 img {
-    height: auto;
+    height: 150px;
     width: 200px;
 }
 
